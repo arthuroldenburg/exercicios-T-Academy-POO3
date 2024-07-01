@@ -18,6 +18,7 @@ public class Produto {
     public void exibirDetalhes() {
         System.out.println("Nome do Produto" + getNome());
         System.out.println("Preco do Produto" + getPreco());
+        System.out.println("Tem " + getQuantidadeEmEstoque() + " em estoque");
     }
 
     public String comprar(int quantidade) {
